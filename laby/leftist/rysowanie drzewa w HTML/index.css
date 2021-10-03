@@ -1,0 +1,38 @@
+body {
+    display: flex;
+}
+
+#container {
+    margin: auto;
+}
+
+#plotWrapper {
+    display: flex;
+}
+
+#plot {
+    margin: auto;
+}
+
+.node {
+    display: inline-block;
+}
+
+.value {
+    width: max-content;
+    margin: auto;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.children {
+    min-width: 100px;
+    display: flex;
+}
